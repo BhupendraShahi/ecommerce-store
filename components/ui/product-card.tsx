@@ -45,6 +45,7 @@ const ProductCard: React.FC<ProductCard> = ({
         <Image 
           src={data.images?.[0]?.url} 
           alt=""
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 80vw, 60vw"
           fill
           className="aspect-square object-cover rounded-md"
         />
